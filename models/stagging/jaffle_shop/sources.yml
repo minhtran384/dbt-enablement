@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: dbt_enablement # Databricks schema (database)
+    database: hive_metastore # Databricks metastore (catalog)
+    tables:
+      - name: jaffle_shop_customers # Databricks table
+      - name: jaffle_shop_orders # Databricks table

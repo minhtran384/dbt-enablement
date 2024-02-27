@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: dbt_enablement
+    database: hive_metastore
+    tables:
+      - name: stripe_payments
